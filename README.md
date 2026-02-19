@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 AWS EC2 Nginx Web Server Project
 Project Overview
 
@@ -58,3 +59,8 @@ Understanding security group networking rules
 Deploying a simple web server in the cloud
 
 This project demonstrates practical skills relevant to Junior DevOps, Cloud Engineer, and Linux Administrator roles.
+=======
+Welcome to AWS_Ec2_Server by Atsu
+
+
+>>>>>>> c3065e5 (Initial commit - AWS EC2 Nginx Webserver project)
