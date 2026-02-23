@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 AWS EC2 Nginx Web Server Project
 Project Overview
 
@@ -61,6 +62,42 @@ Deploying a simple web server in the cloud
 This project demonstrates practical skills relevant to Junior DevOps, Cloud Engineer, and Linux Administrator roles.
 =======
 Welcome to AWS_Ec2_Server by Atsu
+=======
+# AWS EC2 Nginx Web Server Project
+
+## Project Overview
+This project demonstrates how to deploy a web server using AWS EC2 and Nginx.
+
+## Tools Used
+- AWS EC2 (Ubuntu)
+- Linux CLI
+- Nginx
+- Bash scripting
+- Git & GitHub
+
+## Steps Performed
+1. Created Ubuntu EC2 instance
+2. Configured Security Group (SSH & HTTP)
+3. Connected via SSH
+4. Installed Nginx
+5. Created automation script
+6. Deployed sample website
+
+## Project Structure
+
+## code 
+
+AWS_Ec2_nginx_Webserver/
+├── README.md
+├── screenshots/
+├── scripts/
+│   └── setup-nginx.sh
+├── configs/
+└── notes.txt
+
+## Result 
+Website successfully deployed using Nginx on AWS EC2.
+>>>>>>> 3f47362 (AWS EC2 Nginx Web Server Project)
 
 
 >>>>>>> c3065e5 (Initial commit - AWS EC2 Nginx Webserver project)
