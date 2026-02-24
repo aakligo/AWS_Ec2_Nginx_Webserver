@@ -65,39 +65,43 @@ Welcome to AWS_Ec2_Server by Atsu
 =======
 # AWS EC2 Nginx Web Server Project
 
-## Project Overview
-This project demonstrates how to deploy a web server using AWS EC2 and Nginx.
+## Overview
+Deployed a public Nginx web server on an Ubuntu EC2 instance and hosted a simple HTML website. Automated installation and deployment using a Bash script.
 
 ## Tools Used
 - AWS EC2 (Ubuntu)
-- Linux CLI
 - Nginx
+- Linux (SSH, systemd)
 - Bash scripting
 - Git & GitHub
 
-## Steps Performed
-1. Created Ubuntu EC2 instance
-2. Configured Security Group (SSH & HTTP)
-3. Connected via SSH
-4. Installed Nginx
-5. Created automation script
-6. Deployed sample website
+## What I Did
+1. Launched an Ubuntu EC2 instance
+2. Configured Security Group rules (SSH 22, HTTP 80)
+3. Connected to the instance via SSH
+4. Installed and started Nginx
+5. Deployed a custom HTML page to `/var/www/html/index.html`
+6. Automated setup with `scripts/setup-nginx.sh`
 
 ## Project Structure
 
-## code 
+
 
 AWS_Ec2_nginx_Webserver/
 ├── README.md
-├── screenshots/
-├── scripts/
-│   └── setup-nginx.sh
 ├── configs/
+<<<<<<< HEAD
 └── notes.txt
 
 ## Result 
 Website successfully deployed using Nginx on AWS EC2.
 >>>>>>> 3f47362 (AWS EC2 Nginx Web Server Project)
+=======
+├── notes.txt
+├── screenshots/
+└── scripts/
+└── setup-nginx.sh.
+>>>>>>> 03b3374 (Update README)
 
 
 >>>>>>> c3065e5 (Initial commit - AWS EC2 Nginx Webserver project)
